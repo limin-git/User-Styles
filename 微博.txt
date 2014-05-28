@@ -1,0 +1,14 @@
+@-moz-document domain("weibo.com")
+{
+  .S_bg4,
+  .WB_left_nav a.lev_curr,
+  .WB_left_nav a.lev_curr:hover,
+  a.W_gotop:hover,
+  .SW_fun_bg:hover,
+  .SW_fun_bg_0_4:hover,
+  .SW_fun_bg_0_4:active, 
+  .S_bg5
+  {
+    background: none !important;
+  }
+}

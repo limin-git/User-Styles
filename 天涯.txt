@@ -1,0 +1,7 @@
+@-moz-document domain("tianya.cn")
+{
+  .answerItem li
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+}

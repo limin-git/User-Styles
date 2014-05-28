@@ -1,0 +1,8 @@
+@-moz-document domain("github.com")
+{
+  .file-code,
+  .highlight
+  {
+    background: none !important;
+  }
+}

@@ -1,0 +1,7 @@
+@-moz-document domain("360.cn")
+{
+  #m_list .article 
+  {
+    background: none !important;
+  }
+}

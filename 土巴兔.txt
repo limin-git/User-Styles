@@ -1,0 +1,84 @@
+/* 土巴兔 */
+@-moz-document domain(to8to.com)
+{  
+  /* 去掉滚动条 */
+  html
+  {
+    overflow: hidden;
+  }
+  
+  /* 设置颜色：黑、白 */
+  html,
+  body,
+  .container, .right_content, .img_content
+  {
+    color: white !important;
+    background-color: black !important;
+  }
+  
+  .container, .right_content, .img_content
+  {
+    border: none !important;
+    color: black !important;
+    background-color: black !important;
+  }
+  
+  .next, .prev, .img_list, .btn,
+  div#small_show,
+  .top_bar
+  {
+    display: none;
+  }
+  
+  /* 增大页码 */
+  p#small_num
+  {
+    border-width: 0px !important;
+    font-size: 300%;
+  }
+  
+  /* 去掉图片外框限制 */
+  
+  #fine_box,
+  #fine_left,
+  #dis,
+  .picture,
+  .container,
+  .img_content,
+  .img_box,
+  .img_div,
+  .img_div_tag
+  {
+    background-color: black !important;
+    position: absolute;
+    border-width: 0px;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0px !important;
+    left: 0px !important;
+  }
+  
+  *,
+  .container, .right_content, .img_content
+  {
+    border: none !important;
+  }
+  
+  .picture
+  {
+    margin: 0px;
+  }
+  
+  /* 逻辑已移到 Greasemonkey - 'iScript - 土巴兔'
+  img#show_img
+  {
+    width: auto;
+    height: 200%;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    margin-top: 0px !important;
+  }
+  */
+}

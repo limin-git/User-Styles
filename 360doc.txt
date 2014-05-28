@@ -1,0 +1,8 @@
+@-moz-document domain("360doc.com")
+{
+  #afterseldiv.pizhu3
+  {
+    display: none !important;
+  }
+
+}

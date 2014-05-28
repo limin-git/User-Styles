@@ -1,0 +1,39 @@
+/* 百度 */
+@-moz-document domain("baidu.com")
+{
+  .file-list,
+  .dir-path,
+  .properties,
+  .main,
+  #bd,
+  #ft,
+  .reader-container .reader-page, .reader-container .pay-page-mod 
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+}
+
+
+/*百度百科*/
+@-moz-document domain("baike.baidu.com")
+{
+  .editable-title,
+  .z-catalog h2, .z-catalog, .z-catalog dl, .z-catalog-i1 a, 
+  .card-summary,
+  .text .headline-1 .headline-content, .movie-more-content .headline-1 .headline-content,
+  .polysemeWrap .polysemeBody,
+  #page，
+  .polysemeWrap，
+  #content-wrap, #content, #content .content-bd
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+  
+  #bkDynamic,
+  .side-box-extend,
+  .bk-editable-lemma-btns .bk-editable-edit,
+  .polysemeWrap
+  {
+    background: none;
+  }
+}

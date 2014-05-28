@@ -1,0 +1,103 @@
+/*凤凰网首页*/
+@-moz-document url("http://www.ifeng.com/")
+{ 
+  .bord01,
+  .ad200-2,
+  .ad200-3,
+  .ad1000,
+  .box200-tj,
+  .box200-cj,
+  .headBg,
+  .Div01,
+  .box200,
+  .focus,
+  .space7,
+  .col,
+  .header,
+  .city
+  {
+    background-color: rgb(203,232,207) !important;
+  }
+  
+  /*财经。股票，博报。微博，汽车。车型库，娱乐*/
+  div.focus + div.col + script + div.col,
+  .box200-finance, /*股票走势图*/
+  .ad200-2/*商讯*/
+  {
+    display: none !important;
+  }
+  
+  /*房产。家居*/
+  #ifeng_index_house_div.box360,
+  /*旅游。星座*/
+  div.block:nth-child(8) > div:nth-child(2),
+  /*时尚。化妆品库*/  
+  div.block:nth-child(6) > div:nth-child(3)
+  {
+   visibility: hidden !important; 
+  }
+}
+
+/*凤凰*/
+@-moz-document domain("ifeng.com")
+{
+  div.main > div.left
+  {
+    position: absolute !important;
+    margin: auto !important;
+    left: 0px; right: 0px;
+  }
+  
+
+  #comment2,
+  .past,
+  .textLogin2,
+  #comment2 .commentCon .conBox,
+  .photoNews, .photoMHD,
+  .cmtBox .textLogin2,
+  .cmtBox .tit02,
+  .cmtBox .commentCon,
+  .bkw,
+  .h_mainNav,
+  .Nfld_b00aw_1000,
+  .Nfld_t00aw_1000
+  {
+    background-color: rgb(203,232,207) !important;
+  }
+  
+  .go_bank,
+  .right,
+  .footer,
+  .bg04.ss_none,
+  .space30.ss_none,
+  .ad.bd.ss_none,
+  .blockL.ss_none,
+  .adbox03.ss_none,
+  #js_select_share,
+  #js_img_share,
+  #embed_hzh_div,
+  #optimusPrimeContentId,
+  #adv_left,
+  #wx.weixin,
+  #js_search.navFind,
+  #twtj.label_2.ss_none,
+  #cmtBox.cmtBox.clearfix,
+  #rightCoupletId,
+  #leftCoupletId,
+  #ifengAehovering_small,
+  #js_select_share.select_share
+  {
+    display: none !important;
+  }
+}
+
+
+/*凤凰视频*/
+@-moz-document domain("v.ifeng.com")
+{
+  .playercont .playright,
+  .videocomment
+  {
+    background: none !important;
+  }
+}

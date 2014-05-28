@@ -1,0 +1,7 @@
+@-moz-document domain("fosss.org")
+{
+  .oneColLiqCtr #container
+  {
+    background: none !important;
+  }
+}

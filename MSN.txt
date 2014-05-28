@@ -1,0 +1,12 @@
+@-moz-document domain("msn.com.cn")
+{
+  .main
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+  
+  #jiaShare.jiaShare /*∑÷œÌµΩ*/
+  {
+    display: none !important;
+  }
+}

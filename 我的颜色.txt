@@ -1,0 +1,6 @@
+html,
+head,
+body
+{
+  background-color: rgb(204,232,207) !important;
+}

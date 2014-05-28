@@ -1,0 +1,8 @@
+@-moz-document url("https://192.168.253.73/secure/Dashboard.jspa")
+{
+  #dashboard-content,
+  #issuetable
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+}

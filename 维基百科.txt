@@ -1,0 +1,14 @@
+@-moz-document domain("wikipedia.org")
+{
+  .ns-0 div#content,
+  .ns-0 div#p-cactions li a:hover,
+  .ns-0 div#p-cactions li.selected a,
+  .ns-0 div#content div.thumb,
+  .ns-4.page-Wikipedia_首页 div#content,
+  .ns-4.page-Wikipedia_首页 div#p-cactions li a:hover,
+  .ns-4.page-Wikipedia_首页 div#p-cactions li.selected a,
+  .ns-4.page-Wikipedia_首页 div#content div.thumb
+  {
+    background: none !important;
+  }
+}

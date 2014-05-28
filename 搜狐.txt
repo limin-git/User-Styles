@@ -1,0 +1,33 @@
+@-moz-document domain("www.sohu.com")
+{
+  *
+  {
+    background-color: rgb(203,232,207) !important;
+  }
+}
+
+@-moz-document domain("sohu.com")
+{
+  #SOHUCS #SOHU_MAIN .section-list-w .wrap-build-gw .block-cont-hover-e,
+  #SOHUCS #SOHU_MAIN .section-list-w .wrap-build-gw .build-floor-gw,
+  #container .search-hotword,
+  .area 
+  {
+    background: none !important;
+  }
+  
+  #container
+  {
+   border: none !important;
+  }
+}
+
+/*ËÑºüÐÂÎÅ*/
+@-moz-document domain("news.sohu.com")
+{
+  #banner,
+  #wrapper
+  {
+    background: none !important;
+  }
+}

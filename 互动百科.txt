@@ -1,0 +1,9 @@
+@-moz-document domain("baike.com")
+{
+  #catalog, #catalog #full-all,
+  .module td, .con-task th, .con-task td,
+  #primary
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+}

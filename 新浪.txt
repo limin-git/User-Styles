@@ -1,0 +1,159 @@
+/* 新浪 */
+@-moz-document domain(sina.com.cn)
+{
+  div.blkContainer
+  {
+    position: absolute !important;
+    width: 75% !important;
+    max-width: 800px !important;
+    left: 0; right: 0; margin: auto;
+  }
+  
+  div.blkContainerSblk
+  {
+    width: 100% !important;
+    padding: 0px 0px 0px 0px !important;
+  }
+  
+  div#artibody.BSHARE_POP.blkContainerSblkCon.clearfix.blkContainerSblkCon_14
+  {
+    padding: 0px 20px 0px 20px !important;
+  }
+  
+  /*页面顶部：‘新闻中心’上面的空白*/
+  .mt50
+  {
+    margin: 0px 0px 0px !important;
+  }
+  
+  .cNav1
+  {
+    padding-top: 0px !important;
+  }
+  
+  .nav-wrap,
+  .sp20,
+  .sp15,
+  .sp5,
+  .sinablogbody,
+  .part-a,
+  .part-wbtj,
+  .swp-bd
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+  
+  #sinaLoginReward2014_w,
+  .side-btns-wrap,
+  .share-button-inner,
+  .navTop.navFixed,
+  .otherContent_01,
+  .guess-view-list,
+  .real-time-window,
+  .footer,
+  .blkContainerSblkCon.textBtmtg,
+  .picLead,
+  .content_shareto,
+  .content_print,
+  .Ad_03,
+  .content_aboutNews_new,
+  .content_line,
+  .wb_rec_c,
+  .blkBreadcrumbSearch,
+  .side-btns-2w,
+  .sidebar,
+  .blkContentSearch.inp-txt-wrap,
+  .blkContentSearch.inp-txt-wrap,
+  #clearPc.clearAd,
+  #b-drag-div,
+  #taier_pfp,
+  #J_Comment_Wrap,
+  #moodcounter,
+  #s_chart
+  {
+    display: none !important;
+  }
+  
+  div.wrap_case
+  {
+    background: none !important;
+  }
+}
+
+/*新闻中心首页*/
+@-moz-document url(http://news.sina.com.cn/)
+{
+  /*楼房广告*/
+  #blk_ATopTxtT_01,
+  #HouseCityAdT2,
+  /*科技新闻 - 博客 - 星座*/
+  div#blk_blogxzup_01.Tit_10,
+  div#blk_blogxz_01.blk_53,
+  /*健康新闻*/
+  div#blk_jktltop_01.partTit_02,
+  div#blk_jktltop_01.partTit_02 + div.part_03.clearfix,
+  /*体育新闻*/
+  div#blk_tytltop_01.partTit_01,
+  div#blk_tytltop_01.partTit_01 + div.part_02.clearfix,
+  /*财经新闻*/
+  div#blk_cjtltop_01.partTit_01,
+  div#blk_cjtltop_01.partTit_01 + div.part_02.clearfix,
+  /*收藏*/
+  div#blk_spsctltop_01.partTit_02,
+  div#blk_spsctltop_01.partTit_02 + div.part_03.clearfix,
+  /*房产*/
+  div#blk_fctltop_01.partTit_02,
+  div#blk_fctltop_01.partTit_02 + div.part_03.clearfix,
+  /*汽车*/
+  div#blk_qctltop_01.partTit_02,
+  div#blk_qctltop_01.partTit_02 + div.part_03.clearfix,
+  /*教育、考试*/
+  div#blk_jytltop_01.partTit_02,
+  div#blk_jytltop_01.partTit_02 + div.p_box.clearfix,
+  /*时尚、女性、星座*/
+  div#blk_nxtltop_01.partTit_02,
+  div#blk_nxtltop_01.partTit_02 + div.newpart_cont.clearfix,
+  /*游戏新闻*/
+  div#blk_yxtltop_01.partTit_02,
+  div#blk_yxtltop_01.partTit_02 + div.part_03.clearfix,
+  /*娱乐新闻*/
+  div#blk_yltltop_01.partTit_01,
+  div#blk_yltltop_01.partTit_01 + div.part_02.clearfix
+  {
+    display: none !important;
+  }
+  
+  /*娱乐。体育。彩票。游戏*/
+  div.part_01:nth-child(22) > div:nth-child(2)
+  {
+    visibility: hidden !important;
+  }
+  
+  /*最底部弹出窗口*/
+  .rtw2-in
+  {
+    display: none !important;
+  }
+  
+  .blk_new_04,
+  .channelHead,
+  .tn-title-login-custom .tn-user-custom,
+  li.selected,
+  a.more_news:link,
+  a.more_news:visited
+  {
+    background-color: rgb(203,232,207) !important;
+  }
+}
+
+
+/*新浪读书*/
+@-moz-document domain("book.sina.com.cn")
+{
+  #wrap
+  {
+    background-color: rgb(203,232,207) !important;
+  }
+}
+
+

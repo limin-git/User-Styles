@@ -1,0 +1,10 @@
+/* Google */
+@-moz-document domain("google.com.sg")
+{
+  .ksb, .ab_button,
+  #appbar,
+  .pinning-enabled .left-nav-pinned
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+}

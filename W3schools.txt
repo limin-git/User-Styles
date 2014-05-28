@@ -1,0 +1,21 @@
+@-moz-document domain("w3school.com.cn")
+{
+  div#tpn,
+  div#bpn
+  {
+    background-color: rgb(203,232,207) !important;
+  }
+}
+
+
+@-moz-document domain("w3schools.com")
+{
+  #leftcolumn a:link,
+  #leftcolumn a:visited,
+  #leftcolumn a:hover,
+  #leftcolumn a:active,
+  #page
+  {
+    background-color: rgb(203,232,207) !important;
+  }
+}
