@@ -11,4 +11,9 @@
   {
     background: none !important;
   }
+  
+  .profile_pic_top
+  {
+    height: 100px !important;
+  }
 }

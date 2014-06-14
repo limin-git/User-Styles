@@ -124,7 +124,7 @@
   }
   
   /*娱乐。体育。彩票。游戏*/
-  div.part_01:nth-child(22) > div:nth-child(2)
+  div.part_01:nth-child(21) > div:nth-child(2)
   {
     visibility: hidden !important;
   }
@@ -155,5 +155,37 @@
     background-color: rgb(203,232,207) !important;
   }
 }
+
+
+/*新浪微博*/
+@-moz-document domain("blog.sina.com.cn")
+{
+  div[id*=_panel]
+  {
+    display: none;
+  }
+}
+
+
+
+/*新浪佛学*/
+@-moz-document domain("fo.sina.com.cn")
+{
+  .banner
+  {
+    display: none;
+  }
+}
+
+
+/*新闻中心*/
+@-moz-document domain("news.sina.com.cn")
+{
+  .weibo-list
+  {
+    background: none !important;
+  }
+}
+
 
 

@@ -1,0 +1,10 @@
+@-moz-document domain("coursera.org")
+{
+  .coursera-catalog-toolbar,
+  .coursera-body,
+  .coursera-full-canvas,
+  #origami
+  {
+    background: none !important;
+  }
+}

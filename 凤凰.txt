@@ -65,6 +65,8 @@
     background-color: rgb(203,232,207) !important;
   }
   
+  
+  .links, .chaFooter, .chaFotNav
   .go_bank,
   .right,
   .footer,

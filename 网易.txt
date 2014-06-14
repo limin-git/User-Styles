@@ -1,0 +1,9 @@
+@-moz-document domain("163.com")
+{
+  td[bgcolor="#FFFFFF"],
+  table,
+  .bg_white
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+}

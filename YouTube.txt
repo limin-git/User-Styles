@@ -1,0 +1,18 @@
+@-moz-document domain("youtube.com")
+{
+  [background]
+  #watch7-headline,
+  .site-center-aligned .yt-card,
+  #watch7-content,
+  #watch7-sidebar,
+  .yJa,
+  .BJa,
+  .mj,
+  .E5, .e4
+  .DJa,
+  #watch7-action-panels #watch7-action-panel-footer,
+  .xN.d-y-r-c, .xN.d-y-r-c.d-y-r-c-eb
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+}

@@ -1,0 +1,7 @@
+@-moz-document domain("people.com.cn")
+{
+  .rmwb_dragLayer
+  {
+    display: none !important;
+  }
+}

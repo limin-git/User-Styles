@@ -1,7 +1,7 @@
 @-moz-document domain("360.cn")
 {
-  #m_list .article 
+  *
   {
-    background: none !important;
+    background-color: rgb(204,232,207) !important;
   }
 }

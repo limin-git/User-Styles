@@ -1,0 +1,7 @@
+@-moz-document domain("www.boost.org")
+{
+  #body
+  {
+    background: none !important;
+  }
+}

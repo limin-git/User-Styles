@@ -1,0 +1,20 @@
+@-moz-document url-prefix("http://203.120.121.167")
+{
+  #page
+  {
+    background: none !important;
+  }
+}
+
+/**
+  *TA Leave Record
+  * 将 Zhu Limin 行，背景色设置为黄色
+  */
+
+@-moz-document url("http://203.120.121.167/index.php/TA_Leave_Record")
+{
+  #content > div:nth-child(7) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(37)
+  {
+    background: yellow !important;
+  }
+}

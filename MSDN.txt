@@ -1,0 +1,13 @@
+@-moz-document domain("msdn.microsoft.com")
+{
+  div.profile-usercard, .profile-usercard-hover div.profile-usercard,
+  #JelloWrapper
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+  
+  #msdn-technet-en-thread #threadPageContainer li.message div.menu.thread, #msdn-technet-en-thread #threadPageContainer li.message div.menu.message, div.expandedThreadContainer li.message div.menu.thread, div.expandedThreadContainer li.message div.menu.message
+  {
+    background-color: rgb(204,232,207) !important;
+  }
+}

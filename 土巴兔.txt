@@ -1,6 +1,6 @@
 /* 土巴兔 */
-@-moz-document domain(to8to.com)
-{  
+@-moz-document domain("to8to.com")
+{
   /* 去掉滚动条 */
   html
   {
